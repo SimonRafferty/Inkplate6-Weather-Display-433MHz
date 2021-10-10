@@ -1,6 +1,6 @@
 # Inkplate6-Weather-Display-433MHz
 
-This fork is based on David Bird's excellent e-Paper weather display. 
+This fork is based on David Bird's excellent e-Paper weather display. https://github.com/G6EJD
 ![image](https://user-images.githubusercontent.com/13219057/136691834-09dc2aaf-f500-43ec-a5f3-33e2905c53aa.png)
 
 I have added code to receive Temperature & Humidity readings from up to 3x F007TH Thermometer / Hygrometers. https://www.aliexpress.com/item/4000094242136.html?spm=a2g0s.9042311.0.0.58e04c4dYY6Wdu
