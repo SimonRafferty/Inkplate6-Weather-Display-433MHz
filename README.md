@@ -45,7 +45,9 @@ The WHITE wire is the Antenna. I've used a 1/4 wave, 23cm length of wire for thi
 
 
 
-Obtain your OWM API key - it's free
+Obtain your OWM API key - it's free  https://openweathermap.org/
+
+__Note: If you use your API key to receive data too often (once per 30 mins seems OK), it will start blocking you!__
 
 Edit the owm_credentials2.h file in the IDE (TAB at top of IDE) and change your Language, Country, choose your units Metric or Imperial and be sure to find a valid weather station location on OpenWeatherMap, if your display has all blank values your location does not exist!. OPEN WEATHER MAP VERSION - STREAMING JSON
 
