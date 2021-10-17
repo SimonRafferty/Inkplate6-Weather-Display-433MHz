@@ -25,15 +25,19 @@ Additional Features:
   If there is no 433MHz Thermometer detected on Channel 3, it uses a value received from OpenWeather.com as the outdoor temperature
     
     
-*  WiFi SSID1 & SSID2 are implemented in owncredentials2.h to point to a main and backup WiFi source. 
-  I've also added CITY1 & CITY2 in the same way. CITY1 is used if the unit establishes a connection to SSID1 
-  and CITY2 for SSID2. This was so I could use the same unit at home and work and it would read correctly.
+*  Web portal for configuration.  Runs when no WiFi credentials are stored or for 1 min on power up.
+  You will need to go to https://openweathermap.org/ set up a free account & get an API Key.
+  There's also a list of recognised cities here: http://bulk.openweathermap.org/sample/
+  If you are outside the UK, you can change the country in owm_credentials2.h
+    
 
-![alt text](https://github.com/SimonRafferty/ESP32-42e-Paper-Weather-Display-/blob/master/Weather%20Rx.jpg)
+
+
+![image](https://user-images.githubusercontent.com/13219057/137620945-a7c4e0cb-0801-46e1-8f79-671dfe9aa2ea.png)
 
 In the sketch, I've connected the DATA from the Rx to IO D13. This is the YELLOW wire in the photo below. I suggest you use a Superhetrodyne type receiver such as a RXB6 module - they work much better than the others. Although some references say the RXB6 needs 5v, it works happily on 3.3v too.
 I've also used IO D12 to power the Receiver.  This is useful if you want the display to be battery powered - you can de-power the Rx. 
-
+![alt text](https://github.com/SimonRafferty/ESP32-42e-Paper-Weather-Display-/blob/master/Weather%20Rx.jpg)
 **<pre>
   int RxPin           = 13;   //The number of signal from the Rx  
   int Enable433       = 12;   //Set to high to power up 433 Board
