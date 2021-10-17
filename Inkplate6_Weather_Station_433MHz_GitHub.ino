@@ -411,7 +411,7 @@ int StartWiFi() {
   
   //Store them in WM if not empty
   if(LocalCity.length()==0) LocalCity = "Horsham";
-  if(LocalAPIKey.length()==0) LocalAPIKey = "5713e242e734e3b05e6b576d6bf01db9";
+  if(LocalAPIKey.length()==0) LocalAPIKey = "Enter your API Key Here";
   if(LocalLabel1.length()==0) LocalLabel1 = "Workshop";
   if(LocalLabel2.length()==0) LocalLabel2 = "Indoors";
   if(LocalLabel3.length()==0) LocalLabel3 = "Outdoors";
