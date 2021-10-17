@@ -436,7 +436,7 @@ int StartWiFi() {
 
 
   //****************** UNCOMMENT THIS TO RESET WiFi & CONFIG SETTINGS ********************************
-  wm.resetSettings(); // wipe settings
+  //wm.resetSettings(); // wipe settings
 
 
 
